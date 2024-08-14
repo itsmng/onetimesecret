@@ -20,7 +20,7 @@ jobs:
         run: |
           cd /home/runner/work/onetimesecret/
           rm -r onetimesecret/tools onetimesecret/.git onetimesecret/.github
-          tar -zcvf one-timesecret-${{ github.ref_name }}.tgz onetimesecret
+          tar -zcvf onetimesecret-${{ github.ref_name }}.tgz onetimesecret
 
       - name: Upload release
         uses: actions/upload-artifact@v4
