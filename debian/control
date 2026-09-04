@@ -1,0 +1,12 @@
+Source: onetimesecret
+Section: web
+Priority: standard
+Maintainer: ITSMng SysAdmin <sysadmin@itsm-ng.com>
+Build-Depends:	debhelper (>= 9)
+Rules-Requires-Root: no
+Homepage: https://github.com/itsmng/onetimesecret
+
+Package: itsm-ng-plugin-onetimesecret
+Architecture: all
+Depends: itsm-ng (>= 1:2.0),
+Description: One-Time Secret integration
